@@ -1,0 +1,111 @@
+body
+{
+    background-color: rgb(66, 63, 63);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#photo
+{
+    
+    position: relative;
+    float: right;
+    opacity: 50%
+
+}
+#contact 
+{
+    
+    border:2px lightseagreen solid;
+    box-shadow: lightseagreen;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    text-align: center;
+}
+h1
+{
+    border-style: hidden;
+    border-radius: 2%;
+    text-align: center;
+    
+    box-shadow: 8px 8px 12px #aaa;
+}
+h2
+{
+    text-align: center;
+}
+#experience
+{
+    background-color: rgb(199, 223, 226);
+    margin: auto;
+    padding: 2%;
+    border-width: medium;
+    border-style: groove;
+    border-color: royalblue;
+    -moz-border-raduis: 10px;
+    box-shadow: 8px 8px 12px #aaa;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa;
+    width: 45%;
+    float: left;
+    line-height: 1.6em;
+    text-align: justify;
+   
+}
+li
+{
+    list-style-type:none;
+}
+#competence
+{
+    background-color: rgb(199, 223, 226);
+    margin: auto;
+    border-style: double;
+    border-color: teal;
+    padding: 1%;
+    -moz-border-raduis: 10px;
+    box-shadow: 8px 8px 12px #aaa;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa;
+    
+
+}
+
+
+#formation
+{
+    background-color: rgb(199, 223, 226);
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2% ;
+    padding: 2%;
+    border-width: medium;
+    border-style: groove;
+    border-color: slateblue;
+    -moz-border-raduis: 10px;
+    box-shadow: 8px 8px 12px #aaa;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa;
+}
+#block
+{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(199, 223, 226);
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2% ;
+    padding: 2%;
+    border-width: medium;
+    border-style: groove;
+    border-color: slateblue;
+    -moz-border-raduis: 10px;
+    box-shadow: 8px 8px 12px #aaa;
+    -moz-box-shadow: 8px 8px 12px #aaa;
+    -webkit-box-shadow: 8px 8px 12px #aaa;
+    margin: auto;
+
+}
