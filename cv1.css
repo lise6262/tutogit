@@ -109,3 +109,8 @@ li
     margin: auto;
 
 }
+@media all and (max-device-widht:480 px)
+body
+{
+    background-color: black;
+}
