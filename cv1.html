@@ -3,65 +3,93 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="cv11.css" />
+       
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    
+        <link rel="stylesheet" type="text/css" href="cv11.css" />
         <title>Bouillet lise</title>
     </head>
     <body>
+    
         <h1>DEVELOPPEUSE WEB & WEB MOBILE</h1>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
         <section id="block">
-            <nav class="nav nav-pills flex-column flex-sm-row">
+            <nav class="nav nav-pills flex-column flex-sm-row" id="sm">
                 <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="#contact">Contact</a>
                 <a class="flex-sm-fill text-sm-center nav-link" href="#competence">Compétences</a>
                 <a class="flex-sm-fill text-sm-center nav-link" href="#formation">Formations</a>
                 <a class="flex-sm-fill text-sm-center nav-link " href="#experience" >Expériences</a>
+                <a class="flex-sm-fill text-sm-center nav-link " href="#portfolio" >Portfolio</a>
               <br>
             </nav>
-            <nav id="contact">
-        <a href="develop.jpg" id="photo"> <img src="photo.jpg" alt="Bouillet lise"></a> <br>
-
+            <a href="develop.jpg" id="photo"> <img src="photo.jpg" alt="Bouillet lise"></a> <br>
+            <a href="develop.jpg" id="photo2"> <img src="photo3.jpg" alt="Bouillet lise"></a> <br>
+         
             <h2 id="nom">Bouillet Lise</h2> 
+            <nav id="contact">
+             
 
-            <div class="container">
+            <div id="contacter">
+              <table>
+              <tr>
+                <td><th><img src="adressee.png" alt="adresse" /> 14 route de Loison 62300 Lens </p></th></td> </tr>
+               <tr><td><th><img src="smartphone.png" alt="telephone" /> 0610424048</th> </td></tr>
+                <tr><td><th><img src="mail.jpg" alt="mail" /> <a href="mailto:lise_b59@yahoo.com"> lise_b59@yahoo.com </a> </p></th></td></tr>            
+               
+            </table>               
+            </div>
+
+            <div class="container" >
                 <div class="row">
                   <div class="col order-last">
                    <p> <img src="adressee.png" alt="adresse" /> 14 route de Loison 62300 Lens </p>
                   </div>
                   <div class="col">
-                    <div class="telephone">   <img src="smartphone.png" alt="telephone" /> 06 10 42 40 48 </div>
+                    <div class="telephone">   <img src="smartphone.png" alt="telephone" /> 06104240 48 </div>
                   </div>
                   <div class="col order-first">
                     <div class="mail"> <img src="mail.jpg" alt="mail" /> <a href="mailto:lise_b59@yahoo.com"> lise_b59@yahoo.com </a>
                     </div>
                   </div>
                 </div>
-              </div>
-           
+            </div>        
 </nav>
+<nav id="present">
             <div id="presentation">
                 <p> Actuellement en formation  développeur web & web mobile </p>
             </div>
+          </nav>
             <div id="competence"> 
                 <h2>Mes compétences</h2>
                 <ul>
-                    <li>HTML5</li>
+                    <li>HTML5 <img src="HTML5.png" alt="html5"> </li>
                 <div class="progress">
                    <div class="progress-bar bg-success" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90%</div>
                   </div>
-                  <li>CSS3</li>
+                  <li>CSS3<img src="CSS3.png" alt="css3"> </li>
                   <div class="progress">
                     <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90%</div>
                   </div>
-                  <li>GIT</li>
+                  <li>GIT <img src="git.png" alt="git"> </li>
                   <div class="progress">
                     <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
                   </div>
-                  <li>BOOTSTRAP</li>
+                  <li>BOOTSTRAP<img src="bootstrap.png" alt="bootstrap"></li>
                   <div class="progress">
                     <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
                   </div>
+                  <li>Javascript <img src="js.png" alt="js"></li>
+                  <div class="progress">
+                     <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Bientôt</div>
+                    </div>
+                    <li>...</li>
+                    <div class="progress">
+                      <div class="progress-bar bg-info" role="progressbar" style="width: 90%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">90%</div>
+                    </div>
+                    <li>...</li>
+                    <div class="progress">
+                      <div class="progress-bar bg-warning" role="progressbar" style="width: 60%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">60%</div>
+                    </div>
+                 
                   </ul>
                 </div>
             </div>
@@ -89,7 +117,7 @@
 
     <h2>Mon expérience</h2>
     
-    <div class="row">
+    <div class="row" id="exper"> <d-none d-sm-block d-md-block></d-none>
         <div class="col-4">
           <div class="list-group" id="list-tab" role="tablist">
             <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="home">2020</a>
@@ -103,39 +131,134 @@
         <div class="col-8">
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
-                STAGE D’OBSERVATION WEB DEVELOPPEUR - Pictime groupe, Sainghin-en-Mélantois</div>
+                -STAGE D’OBSERVATION WEB DEVELOPPEUR - Pictime groupe, Sainghin-en-Mélantois</div>
             <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
                 <ul>
-                    <li>Femme de chambre / Casadelmar Lecci</li>
-                    <li> Contrôle qualité pour une grande marque de Luxe - Génétiq / pont-à-Marcq</li>
+                    <li>-Femme de chambre / Casadelmar Lecci</li>
+                    <li> -Contrôle qualité pour une grande marque de Luxe - Génétiq / pont-à-Marcq</li>
                 </ul></div>
             <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
                 <ul> <li> Mission intérimaire :</li>
-                    <li> Conditionnement / Sarbec Comestics - Neuville-en-Ferrain</li>
-                    <li> Routeur Margeur / Damart - Hem</li>
-                    <li> Préparatrice de commandes / Publidispatch - Hem</li>
-                    <li> Mise sous plis / Kalliste - Tourcoing</li>
-                    <li> Employé horticole / Decock Comines - Belgique</li>
-                    <li> Déménagement d'entreprise / ContreJour - Roubaix</li></ul></div>
+                    <li> - Conditionnement / Sarbec Comestics - Neuville-en-Ferrain</li>
+                    <li> - Routeur Margeur / Damart - Hem</li>
+                    <li> - Préparatrice de commandes / Publidispatch - Hem</li>
+                    <li> - Mise sous plis / Kalliste - Tourcoing</li>
+                    <li> - Employé horticole / Decock Comines - Belgique</li>
+                    <li> - Déménagement d'entreprise / ContreJour - Roubaix</li></ul></div>
             <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
-                 <li> Préparatrice de commandes, emballage et réception / Logvad - Luignes</li>
-                 <li> Préparatrice de commandes / Grain de Malice - Neuville-en-Ferrain</li>
-                 <li> Préparatrice de commandes et emballage / Dispeo - Tourcoing</li> 
-                 <li>Routeur Margeur / D'haussy - Linselles</li>
+                 <li> - Préparatrice de commandes, emballage et réception / Logvad - Luignes</li>
+                 <li> - Préparatrice de commandes / Grain de Malice - Neuville-en-Ferrain</li>
+                 <li> - Préparatrice de commandes et emballage / Dispeo - Tourcoing</li> 
+                 <li>- Routeur Margeur / D'haussy - Linselles</li>
             </div>
             <div class="tab-pane fade" id="list-messages2" role="tabpanel" aria-labelledby="list-messages-list">
-                Animatrice 3/5 ans, Diapason, aide aux devoirs, Animation anniversaire Service Civique / CSC Belencontre – Phalempin - Tourcoing
+                -Animatrice 3/5 ans, Diapason, aide aux devoirs, Animation anniversaire Service Civique / CSC Belencontre – Phalempin - Tourcoing
             </div>
             <div class="tab-pane fade" id="list-settings2" role="tabpanel" aria-labelledby="list-settings-list">
-            <ul> <li>Vendeuse en prêt-à-porter/ Jules - Wasquehal</li>
-                <li>Vendeuse en prêt-à-porter/ Kiabi - Roncq</li> </ul>
+            <ul> <li>- Vendeuse en prêt-à-porter / Jules - Wasquehal</li>
+                <li>- Vendeuse en prêt-à-porter / Kiabi - Roncq</li> </ul>
           </div>
 
         </div>
+        </div>
       </div>
 
+      
+<div class="accordion" id="accordionExample"> 
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="2020">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#barre" aria-expanded="true" aria-controls="barre">
+       2020
+      </button>
+    </h2>
+    <div id="barre" class="accordion-collapse collapse show" aria-labelledby="2020" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>STAGE D’OBSERVATION WEB DEVELOPPEUR </strong>  Pictime groupe, Sainghin-en-Mélantois
+      </div>
     </div>
-    </section>
+  </div>
+  <div class="accordion-item">
+    
+      <h2 class="accordion-header" id="2019">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#ligne" aria-expanded="true" aria-controls="ligne">
+        2019 - 2018
+      </button>
+    </h2>
+    <div id="ligne" class="accordion-collapse collapse" aria-labelledby="2019" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        05/2019 - 09/2019 :Femme de chambre / Casadelmar Lecci <br>
+        01/2018- 04/2019 : Contrôle qualité pour une grande marque de Luxe - Génétiq / pont-à-Marcq
+       </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="2017">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-expanded="true" aria-controls="menu">
+        2017
+      </button>
+    </h2>
+    <div id="menu" class="accordion-collapse collapse" aria-labelledby="2017" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         <ul><strong>  Mission intérimaire :</strong>
+          <li> - Conditionnement / Sarbec Comestics - Neuville-en-Ferrain</li>
+          <li> - Routeur Margeur / Damart - Hem</li>
+          <li> - Préparatrice de commandes / Publidispatch - Hem</li>
+          <li> - Mise sous plis / Kalliste - Tourcoing
+          <li> - Employé horticole / Decock Comines - Belgique</li>
+          <li> - Déménagement d'entreprise / ContreJour - Roubaix</li>
+          </ul> 
+      </div>
+      </div>
+  </div>
+      <div class="accordion-item">
+          <h2 class="accordion-header" id="2016">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#prepa" aria-expanded="true" aria-controls="prepa">
+              2016-2014
+            </button>
+          </h2>
+          <div id="prepa" class="accordion-collapse collapse" aria-labelledby="2016" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <li> - Préparatrice de commandes, emballage et réception / Logvad - Luignes</li>
+              <li> - Préparatrice de commandes / Grain de Malice - Neuville-en-Ferrain</li>
+              <li> - Préparatrice de commandes et emballage / Dispeo - Tourcoing</li> 
+              <li> - Routeur Margeur / D'haussy - Linselles</li>
+                </div>
+          </div>
+      </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="2013">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#diapason" aria-expanded="true" aria-controls="diapason">
+                      2013 - 2012
+                    </button>
+                  </h2>
+                  <div id="diapason" class="accordion-collapse collapse" aria-labelledby="2013" data-bs-parent="#accordionExample">
+                    <div class="accordion-body"> - Animatrice 3/5 ans, Diapason, aide aux devoirs, Animation anniversaire Service Civique / CSC Belencontre – Phalempin - Tourcoing
+                  </div>
+                  </div>
+                </div>
+
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="2011">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#vente" aria-expanded="false" aria-controls="vente">
+                          2011
+                        </button>
+                      </h2>
+                      <div id="vente" class="accordion-collapse collapse" aria-labelledby="2011" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <ul> <li> - Vendeuse en prêt-à-porter/ Jules - Wasquehal</li>
+                              <li> - Vendeuse en prêt-à-porter/ Kiabi - Roncq</li> </ul>
+                        </div>
+                      </div>
+                    </div>
+
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    
 </section>
     </body>
 </html>

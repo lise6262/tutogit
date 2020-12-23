@@ -1,7 +1,7 @@
 body{
     background-image: url(galaxie.jpg);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     list-style-type: none;
     color: cornsilk;
     margin: 0em;
@@ -9,57 +9,76 @@ body{
     height: 100%;
     width: 100%;
 }
-h1
-{
+h1{
     border: 0.5em cornsilk solid;
     text-align: center;
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px blue;
     -moz-border-raduis: 10px;
     box-shadow: 8px 8px 12px #aaa;
     -moz-box-shadow: 8px 8px 12px #aaa;
     color: blanchedalmond;
     padding: 3%;
     width: 80%;
-    margin:auto;
-    margin-top: 2%;
+    margin: auto;
     background-image: url(galaxie.jpg);
 }
-h2
-{
-    padding: 3%;
-}
-#photo
-{
+#photo{
     margin-top: 2%;
+    margin-bottom: 0%;
+    margin-left: 20%;
+    margin-right: 2%;
     float: left;
 }
-#nom
-{
-    text-align: center;
+#photo2{
+    display: none;
+}
+h2{
+    padding: 3%;
+    text-shadow: 5px 5px 5px blue;
+    font-weight: bolder;
+}
+
+#sm{
+    border-bottom: 0.3em white solid;
+}
+#nom{
+    text-align: left;
     font-size: 2.2em;
     font-weight: bolder;
-
+    text-shadow: none;
+    margin-left: 20%;
+    padding-left: 22%;
 }
-#block
-{
+.container{
+    padding-right: 15%;
+    padding-left: 15%;
+    margin: auto;
+    width: 80%;
+}
+#block{
     border: 0.5em cornsilk solid;
     text-align: center;
     -moz-border-raduis: 10px;
     box-shadow: 8px 8px 12px #aaa;
     -moz-box-shadow: 8px 8px 12px #aaa;
     margin: auto;
+    margin-top: 8%;
     background-color: black;
     width: 80%;
     color: white;
 }
-#contact
-{
-    
+#contact{
     text-align: center;
     margin-bottom: 5%;
-    
 }
-#presentation
-{
+#contacter{
+    display: none;
+}
+#nav{
+    float: none;
+}
+#presentation{
     border: 0.5em cornsilk solid;
     text-align: center;
     -moz-border-raduis: 10px;
@@ -68,17 +87,14 @@ h2
     margin-left:15% ;
     margin-right: 15%;
 }
-#competence
-{
+#competence{
     text-align: center;
     margin-right:15%;
     margin-left:15% ;
     margin-top: 5%;
     margin-bottom: 5%;
 }
-
-#formation
-{
+#formation{
     border: 0.5em cornsilk solid;
     text-align: left;
     -moz-border-raduis: 10px;
@@ -88,18 +104,14 @@ h2
     margin-left:15% ;
     list-style-type: none;
     line-height: 1.7em;
-
 }
-#formation h2
-{
+#formation h2{
     text-align: center;
 }
-ul
-{
+ul{
     list-style-type: none;
 }
-#experience
-{
+#experience{
     text-align: left;
     -moz-border-raduis: 10px;
     margin-left: 15%;
@@ -109,44 +121,117 @@ ul
    list-style-type: none;
     line-height: 2.3em;
 }
-#experience h2
-{
+#experience h2{
     text-align: center;
 }
-@media screen and (max-device-width:480px){
-    body
+#accordionExample{
+    display: none;
+}
+@media screen and (max-width:995px){
+    #photo
     {
-        margin: 0;
+        display: flex;
+        float: left;
+        padding: 0%;
+        position: relative;
+        clear: both;
+        overflow: hidden;
     }
-    h1
-    {
-        margin: 0;
-        padding: 0;
+   
+    #contacter{
+        margin: auto;
         width: 100%;
-        
+        display: inline;
+        float: inline-start;  
+        position: relative; 
+       }
+       #contacter table{
+        margin: auto;
+        width: 100%;
+           display: initial;
+           float: center;     
+       }
+    .container {
+        display: none;
     }
-
-    #block
-    {
+}
+@media screen and (max-width:860px){
+    body{
+        margin: 0;
+    }
+    h1 {
+        margin-top: 6%;
+        margin-bottom:8%
+        padding: 0%;
+        width: 100%;
+        border:none;
+        -moz-border-raduis: none;
+        box-shadow: none;
+         -moz-box-shadow: none;   
+    }
+    #block{
         width: 100%;
         margin: 0%;
+        margin-top: 5%;
+        border-right: none;
+        border-left: none;
     }
-    #presentation
+    #photo
     {
+        float:right;
+    }
+    #contacter{
+     display: inline;
+     float: inline-start;   
+    }
+    #contacter table{
+        display: initial;
+        float: center;
+    }
+    .container{
+        display: none;
+    }
+    #presentation{
         margin: auto;
-        padding: auto;
-        ;
+        padding: auto;   
     }
-
-
-    #formation
-    {
+    #formation{
         text-align:left;
         padding: 0;
         margin: 0;
-        
+        border-right: none;
+        border-left: none;
+     }
+    #experience h2{
+        background-color: black;
+    }
+    #exper{
+    display: none;
+    }
+    #accordionExample{
+        display: initial;
+        color: ivory;
+        background-image: url(galaxie.jpg);
+    }
+    #accordionExample h2{
+        background-color: white;
+        padding: 0;
+    
+    }
+    #experience{
+        background-image: url(galaxie.jpg);
     }
 
-  
 }
-
+@media screen and (max-width:500px){
+    #photo {
+        display: none;
+       
+    }
+    #photo2{
+        display : flex;
+        float: right;
+    }
+   
+      
+}
